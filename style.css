@@ -1,0 +1,122 @@
+body {
+    font: 15px/1.5 Palatino, Palatino, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #ccccb3;
+}
+
+/* Global */
+.container {
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+header ul {
+    margin:0;
+    padding:0;
+}
+
+body h2 {
+    text-align:center;
+}
+
+/* Header */
+header {
+    background:#ffffff;
+    color:#000;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#000 3px solid;
+}
+header a {
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px; /* top right bottom left */
+}
+
+header #branding {
+    float:left;
+}
+header #branding h1 {
+    margin:0;
+}
+header nav {
+    float:right;
+    margin-top:10px;
+}
+header .current a {
+    color:#003366;
+    font-weight:bold;
+}
+header a:hover {
+    color:#cccccc;
+    font-weight:bold;
+}
+
+/* Showcase */
+#showcase {
+    min-height:400px;
+    /*background:url(http://www.saratoga.com/whatsnew/wp-content/uploads/sites/12/2017/01/goodcrowdfurtherback-1024x683.jpg) no-repeat;*/
+    text-align:center;
+}
+#showcase h1{
+    font-size:55px;
+}
+
+.bg {
+    width: 99%;
+    z-index: 0;
+}
+
+/* Boxes */
+#boxes {
+    margin-top:20px;
+}
+
+#boxes .box {
+    float:left;
+    width:23%;
+    padding:10px;
+    text-align:center;
+}
+
+#boxes .box img {
+    width:90px;
+}
+
+#boxes p {
+    font-size:12px;
+}
+
+footer {
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:#000;
+    text-align:center;
+}
+
+/* Video Formatting */
+#video {
+    margin-top:20px;
+}
+#video p {
+    text-align:center;
+}
+
+/* About Page */
+#about {
+    margin-top:20px;
+    text-align:center
+}
+
+#about p {
+    float:left;
+    text-align:center;
+    font-size:14px;
+}
